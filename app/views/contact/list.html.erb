@@ -1,0 +1,8 @@
+<% @enquiries.each do |enq| %>
+  <ul>
+    <li>Name: <%= enq.name %></li>
+    <li>Email: <%= enq.email %></li>
+    <li>Message: <%= enq.message %></li>
+  </ul>
+  <hr>
+<% end %>
